@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Notification toast layout -->
+    <dimen name="notification_padding">22dp</dimen>
+    <dimen name="icon_marginSide">22dp</dimen>
+    <dimen name="icon_marginTop">26dp</dimen>
+    <dimen name="info_textSize">20sp</dimen>
+
+</resources>

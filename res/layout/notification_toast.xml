@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/notification_layout_root"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/pop_bg"
+              >
+    <ImageView android:id="@+id/status_icon"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_marginTop="@dimen/icon_marginTop"
+               android:layout_marginLeft="@dimen/icon_marginSide"
+               />
+    <TextView android:id="@+id/status_info"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginRight="@dimen/icon_marginSide"
+              android:paddingBottom="@dimen/info_paddingBottom"
+              android:gravity="center_vertical|left"
+              android:textColor="#FFF"
+              android:textSize="@dimen/info_textSize"
+              />
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2012 TPV Display Technology Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_label">Arowl System Service</string>
+    
+    <!-- storage status notification string -->
+    <string name="primary_default_label">"SD card"</string>
+    <string name="ext_default_label">"Removable Disk"</string>
+    <string name="SDSlot">"SD slot"</string>
+    <string name="USB1">"USB1"</string>
+    <string name="USB2">"USB2"</string>
+    <string name="USB3">"USB3"</string>
+    <string name="USB4">"USB4"</string>
+    <string name="download_completed">"download completed."</string>
+    <string name="download_failed">"download failed."</string>
+    <string name="detect_overcurrent">"port detects over current"</string>
+    <string name="reconnect_storage_prompt">"To protect the TV, the device was disabled on the port. Please remove the device and reconnect to other port."</string>
+    <string name="reconnect_storage_to_prompt_">"To protect the TV, please remove the device and reconnect to"</string>
+    <string name="storage_connected">"connected."</string>
+    <string name="storage_connected_to">"connected to"</string>
+    <string name="storage_removed">"removed"</string>
+    <string name="storage_safe_to_remove">"disconnected, you can safely remove the device now"</string>
+    <string name="storage_bad_removed">"unexpectedly removed, please unmount it from 'Settings' to avoid data loss."</string>
+
+    <string name="clearDefaultHintMsg">Clear default in Home Settings &gt; Applications &gt; Manage applications.</string>
+
+    <!-- Text displayed when the user selects the check box for setting default application.  See the "Use by default for this action" check box. -->
+    <!-- Prompt for the USB device permission dialog [CHAR LIMIT=80] -->
+    <string name="usb_device_permission_prompt">Allow the app <xliff:g id="application">%1$s</xliff:g> to access the USB device?</string>
+    <!-- Prompt for the USB accessory permission dialog [CHAR LIMIT=80] -->
+    <string name="usb_accessory_permission_prompt">Allow the app <xliff:g id="application">%1$s</xliff:g> to access the USB accessory?</string>
+
+    <!-- Checkbox label for USB device dialogs.  [CHAR LIMIT=50] -->
+    <string name="always_use_device">Use by default for this USB device</string>
+    <!-- Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] -->
+    <string name="always_use_accessory">Use by default for this USB accessory</string>
+
+    <!-- Prompt for the USB device confirm dialog [CHAR LIMIT=80] -->
+    <string name="usb_device_confirm_prompt">Open <xliff:g id="activity">%1$s</xliff:g> when this USB device is connected?</string>
+    <!-- Prompt for the USB accessory confirm dialog [CHAR LIMIT=80] -->
+    <string name="usb_accessory_confirm_prompt">Open <xliff:g id="activity">%1$s</xliff:g> when this USB accessory is connected?</string>
+
+    <!-- Prompt for the USB accessory URI dialog [CHAR LIMIT=80] -->
+    <string name="usb_accessory_uri_prompt">No installed apps work with this USB accessory. Learn more about this accessory at <xliff:g id="url">%1$s</xliff:g></string>
+
+    <!-- Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] -->
+    <string name="title_usb_accessory">USB accessory</string>
+    <!-- View button label for USB dialogs.  [CHAR LIMIT=15] -->
+    <string name="label_view">View</string>
+	
+	<!-- alert to the user that it is more useful if using a default camera-->
+    <string name="no_default_camera">Please use the Philips standard cameras, other cameras may not work properly!</string>
+ 
+
+</resources>
